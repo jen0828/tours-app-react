@@ -38,7 +38,7 @@ function App() {
         <Loading />
       </main>
     );
-  }
+  };
   if (tours.length === 0) {
     return <main>
       <div className="title"></div>
@@ -52,7 +52,7 @@ function App() {
     <main>
       <Tours tours={tours} removeTour={removeTour} />
     </main>
-  )
-}
+  );
+};
 
 export default App;
